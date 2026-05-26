@@ -1385,7 +1385,7 @@ pre code {
     vertical-align: middle;
   }
   .links-of-author a::before {
-    background: #ffffaf;
+    background: #81a662;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
@@ -2902,68 +2902,4 @@ header.header {
   .comments {
     padding: 10px 12px;
   }
-}
-body {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  background-attachment: fixed;
-  background-size: cover;
-}
-.main-inner {
-  background: rgba(255,255,255,0.92);
-  border-radius: 12px;
-  padding: 25px;
-  margin-top: 20px;
-  box-shadow: 0 8px 32px rgba(0,0,0,0.1);
-  backdrop-filter: blur(10px);
-}
-.header-inner {
-  background: rgba(255,255,255,0.85);
-  border-radius: 12px;
-  padding: 15px 25px;
-  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
-  backdrop-filter: blur(10px);
-}
-.sidebar-inner {
-  background: rgba(255,255,255,0.85);
-  border-radius: 12px;
-  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
-  backdrop-filter: blur(10px);
-}
-.post-block {
-  background: transparent;
-  padding: 0;
-}
-.post-block + .post-block {
-  margin-top: 30px;
-}
-.site-brand-container {
-  background: linear-gradient(135deg, #667eea, #764ba2);
-}
-.site-meta {
-  padding: 20px 0;
-}
-.site-title {
-  font-size: 24px;
-  font-weight: 700;
-}
-.menu-item a {
-  transition: all 0.3s ease;
-}
-.menu-item a:hover {
-  background: rgba(102,126,234,0.1) !important;
-  border-radius: 8px;
-}
-.post-button .btn {
-  transition: all 0.3s ease;
-}
-.post-button .btn:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(102,126,234,0.4);
-}
-.sidebar-nav li {
-  transition: all 0.3s ease;
-}
-.sidebar-nav li:hover {
-  background: rgba(102,126,234,0.1);
-  border-radius: 8px;
 }
